@@ -5,7 +5,7 @@
             "name": "User0",
             "password": "password",
             "role": "TECHNICIAN",
-            "status": "WAITING",
+            "status": "SESSION",
             "currentIp": "127.0.0.1"
         },
         {
@@ -13,7 +13,7 @@
             "name": "User1",
             "password": "password",
             "role": "ASSISTANT",
-            "status": "WAITING",
+            "status": "SESSION",
             "currentIp": "127.0.0.1"
         },
         {
@@ -23,6 +23,65 @@
             "role": "TECHNICIAN",
             "status": "WAITING",
             "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 3,
+            "name": "User3",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        }
+    ],
+
+    "Sessions": [
+        {
+            "id": 0,
+            "technicianId": 0,
+            "technicianIp": "192.168.137.22",
+            "assistantId": 1,
+            "assistantIp": "192.168.137.242",
+            "arCameraPosePort": 8081,
+            "screenCoordsPort": 8082,
+            "objectPosesPort": 8085
+        },
+        {
+            "id": 0,
+            "technicianId": 2,
+            "technicianIp": "192.168.137.22",
+            "assistantId": 3,
+            "assistantIp": "192.168.137.242",
+            "arCameraPosePort": 8081,
+            "screenCoordsPort": 8082,
+            "objectPosesPort": 8085
+        }
+    ],
+
+    "ArObjects": [
+        {
+            "id": 0,
+            "path": "/temp/path/file0"
+        },
+        {
+            "id": 1,
+            "path": "/temp/path/file1"
+        }
+    ],
+
+    "SessionArObjects": [
+        {
+            "id": 0,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
         }
     ]
 }
