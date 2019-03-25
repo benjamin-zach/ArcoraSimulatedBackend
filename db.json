@@ -1,0 +1,28 @@
+{
+    "Users": [
+        {
+            "id": 0,
+            "name": "User0",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 1,
+            "name": "User1",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 2,
+            "name": "User2",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        }
+    ]
+}
