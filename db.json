@@ -46,7 +46,7 @@
             "objectPosesPort": 8085
         },
         {
-            "id": 0,
+            "id": 1,
             "technicianId": 2,
             "technicianIp": "192.168.137.22",
             "assistantId": 3,
@@ -79,6 +79,34 @@
             "rotationX": 0,
             "rotationY": 0,
             "rotationZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        {
+            "id": 1,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": 0.5,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 90,
+            "rotationZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        {
+            "id": 2,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": -0.5,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 45,
             "scaleX": 1,
             "scaleY": 1,
             "scaleZ": 1
