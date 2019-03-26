@@ -31,6 +31,22 @@
             "role": "ASSISTANT",
             "status": "WAITING",
             "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 4,
+            "name": "assi",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 5,
+            "name": "tech",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
         }
     ],
 
