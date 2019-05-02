@@ -1,181 +1,291 @@
 {
-  "Users": [
-    {
-      "name": "User0",
-      "password": "password",
-      "role": "TECHNICIAN",
-      "status": "SESSION",
-      "currentIp": "127.0.0.1",
-      "id": 0
-    },
-    {
-      "id": 1,
-      "name": "Peter",
-      "password": "",
-      "role": "TECHNICIAN",
-      "status": "SESSION",
-      "currentIp": ""
-    },
-    {
-      "name": "User2",
-      "password": "password",
-      "role": "TECHNICIAN",
-      "status": "SESSION",
-      "currentIp": "127.0.0.1",
-      "id": 2
-    },
-    {
-      "name": "assi",
-      "password": "password",
-      "role": "ASSISTANT",
-      "status": "OFFLINE",
-      "currentIp": "192.168.137.242",
-      "id": 4
-    },
-    {
-      "name": "tech",
-      "password": "password",
-      "role": "TECHNICIAN",
-      "status": "WAITING",
-      "currentIp": "192.168.137.242",
-      "id": 5
-    },
-    {
-      "id": 6,
-      "name": "newUser",
-      "password": "password",
-      "role": "ASSISTANT",
-      "status": "OFFLINE",
-      "currentIp": "127.0.0.1"
-    },
-    {
-      "name": "SuperAssi",
-      "password": "password",
-      "role": "ASSISTANT",
-      "status": "OFFLINE",
-      "currentIp": "127.0.0.1",
-      "id": 7
-    }
-  ],
-  "HelpRequests": [
-    {
-      "issueTime": "4/2/2019 2:01:48 PM",
-      "technicianId": 1,
-      "assistantId": -1,
-      "id": 0
-    },
-    {
-      "id": 1,
-      "issueTime": "08:21",
-      "technicianId": 1,
-      "assistantId": -1
-    },
-    {
-      "id": 2,
-      "issueTime": "08:22",
-      "technicianId": 2,
-      "assistantId": -1
-    },
-    {
-      "id": 3,
-      "issueTime": "08:23",
-      "technicianId": 5,
-      "assistantId": 7
-    },
-    {
-      "id": 4,
-      "issueTime": "08:24",
-      "technicianId": 5,
-      "assistantId": 7
-    },
-    {
-      "id": 5,
-      "issueTime": "08:25",
-      "technicianId": 5,
-      "assistantId": 7
-    },
-    {
-      "id": 6,
-      "issueTime": "08:26",
-      "technicianId": 5,
-      "assistantId": 7
-    }
-  ],
-  "Sessions": [
-    {
-      "technicianId": 2,
-      "technicianIp": "192.168.137.110",
-      "assistantId": 7,
-      "assistantIp": "192.168.137.242",
-      "arCameraPosePort": 8081,
-      "screenCoordsPort": 8080,
-      "objectPosesPort": 8082,
-      "sessionArObjectsPort": 8090,
-      "id": 0
-    },
-    {
-      "id": 1,
-      "technicianId": 2,
-      "technicianIp": "192.168.137.22",
-      "assistantId": 3,
-      "assistantIp": "192.168.137.242",
-      "arCameraPosePort": 8081,
-      "screenCoordsPort": 8082,
-      "objectPosesPort": 8085
-    }
-  ],
-  "ArObjects": [
-    {
-      "id": 0,
-      "path": "/temp/path/file0"
-    },
-    {
-      "id": 1,
-      "path": "/temp/path/file1"
-    }
-  ],
-  "SessionArObjects": [
-    {
-      "id": 0,
-      "objectId": 0,
-      "sessionId": 0,
-      "positionX": 0,
-      "positionY": 0,
-      "positionZ": 0,
-      "rotationX": 0,
-      "rotationY": 0,
-      "rotationZ": 0,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
-    },
-    {
-      "id": 1,
-      "objectId": 0,
-      "sessionId": 0,
-      "positionX": 0.5,
-      "positionY": 0,
-      "positionZ": 0,
-      "rotationX": 0,
-      "rotationY": 90,
-      "rotationZ": 0,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
-    },
-    {
-      "id": 2,
-      "objectId": 0,
-      "sessionId": 0,
-      "positionX": -0.5,
-      "positionY": 0,
-      "positionZ": 0,
-      "rotationX": 0,
-      "rotationY": 0,
-      "rotationZ": 45,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
-    }
-  ]
+	"RecognizableObjects" : 
+	[
+		{
+			"id" : 0,
+			"name" : "The Server",
+			"description" : "This is an awesome Server",
+			"path" : "temp/path/"		
+		}
+	],
+	"Markers" : 
+	[
+		{
+			"id" : 0,
+			"recognizableObjectId" : 0,
+			"positionX" : 0.3,
+			"positionY" : -0.5,
+			"positionZ" : -0.3,
+			"upX" : 0,
+			"upY" : 1,
+			"upZ" : 0	
+		},
+		{
+			"id" : 1,
+			"recognizableObjectId" : 0,
+			"positionX" : 0,
+			"positionY" : 0,
+			"positionZ" : 0,
+			"upX" : 0,
+			"upY" : 1,
+			"upZ" : 0	
+		},
+		{
+			"id" : 2,
+			"recognizableObjectId" : 0,
+			"positionX" : 0,
+			"positionY" : 0,
+			"positionZ" : 0,
+			"upX" : 0,
+			"upY" : 1,
+			"upZ" : 0	
+		}
+	],
+	"ArObjects" : 
+	[
+        {
+            "id": 0,
+            "imagePath": "imagePath",
+			"prefabPath": "prefabPath"
+        },
+        {
+            "id": 1,
+            "imagePath": "imagePath",
+			"prefabPath": "prefabPath"
+        }
+    ],
+    "HelpRequests": 
+	[
+		{
+			"id": 0,
+			"issueTime": "08:20",
+			"technicianId": 0,
+			"assistantId": 5
+		},
+		{
+			"id": 1,
+			"issueTime": "08:21",
+			"technicianId": 1,
+			"assistantId": 5
+		},
+		{
+			"id": 2,
+			"issueTime": "08:22",
+			"technicianId": 2,
+			"assistantId": -1
+		},
+		{
+			"id": 3,
+			"issueTime": "08:23",
+			"technicianId": 3,
+			"assistantId": -1
+		},
+		{
+			"id": 4,
+			"issueTime": "08:24",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 5,
+			"issueTime": "08:25",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 6,
+			"issueTime": "08:26",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 7,
+			"issueTime": "08:27",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 8,
+			"issueTime": "08:28",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 9,
+			"issueTime": "08:29",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 10,
+			"issueTime": "08:30",
+			"technicianId": 4,
+			"assistantId": -1
+		},
+		{
+			"id": 11,
+			"issueTime": "08:31",
+			"technicianId": 4,
+			"assistantId": -1
+		}
+	],
+    "Users": 
+	[
+        {
+            "id": 0,
+            "name": "Tech0",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "SESSION",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 1,
+            "name": "Tech1",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "OFFLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 2,
+            "name": "Tech2",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "WAITING",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 3,
+            "name": "Tech3",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "ONLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 4,
+            "name": "Tech4",
+            "password": "password",
+            "role": "TECHNICIAN",
+            "status": "ONLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 5,
+            "name": "Assi0",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "ONLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 6,
+            "name": "Assi1",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "ONLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 7,
+            "name": "Assi2",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "SESSION",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 8,
+            "name": "Assi2",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "OFFLINE",
+            "currentIp": "127.0.0.1"
+        },
+        {
+            "id": 9,
+            "name": "Assi2",
+            "password": "password",
+            "role": "ASSISTANT",
+            "status": "ONLINE",
+            "currentIp": "127.0.0.1"
+        }
+    ],
+    "Sessions": 
+	[
+        {
+            "id": 0,
+            "technicianId": 0,
+            "technicianIp": "127.0.0.1",
+            "assistantId": 7,
+            "assistantIp": "127.0.0.1",
+            "arCameraPosePort": 8081,
+            "screenCoordsPort": 8082,
+            "objectPosesPort": 8085,
+			"sessionArObjectsPort": 8090,
+			"signalingServer": "127.0.0.1",
+			"signalingPort": 12776,
+			"secureSignalingPort": 12777
+        },
+        {
+            "id": 1,
+            "technicianId": 0,
+            "technicianIp": "127.0.0.1",
+            "assistantId": 7,
+            "assistantIp": "127.0.0.1",
+            "arCameraPosePort": 8081,
+            "screenCoordsPort": 8082,
+            "objectPosesPort": 8085,
+			"sessionArObjectsPort": 8090,
+			"signalingServer": "127.0.0.1",
+			"signalingPort": 12776,
+			"secureSignalingPort": 12777
+        }
+    ],
+    "SessionArObjects": 
+	[
+        {
+            "id": 0,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": 0,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        {
+            "id": 1,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": 0.5,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 90,
+            "rotationZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        {
+            "id": 2,
+            "objectId": 0,
+            "sessionId": 0,
+            "positionX": -0.5,
+            "positionY": 0,
+            "positionZ": 0,
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 45,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        }
+    ]
 }
